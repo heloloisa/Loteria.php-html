@@ -22,7 +22,8 @@
             
             /* existem varios tipos de borda, como a pontilhada, e o resto que eu nao lembro */
             border: solid 2px #555;
-            padding:10px; 
+            padding:10px; /*margem interna*/
+            margin:10px 10px 10px 10px ; /*topo, margem direita esquerda*/
             float:left;
         }
         .pokemon img{
