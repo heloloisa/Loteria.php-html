@@ -22,16 +22,35 @@
     <title>Pokedex</title>
     <style>
         #pesquisa {
-            background : #ca3e1cfd;
+            background : #dbb6ee;
             font-family : Verdana, Geneva , Tahoma, sans-serif;
             padding :20px;
             text-align : center;
+
+        }
+            
+        #pesquisa input[type="text"]{
+
+            width: 300px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 5px;
+
+        }
+
+        #pesquisa input[type="submit"]{
+
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 5px;
+
 
         }
         .pokemon {
             padding : 15px;
             width :20%;
             border : solid #000000;
+            background: #E6E6FA;
             float : left;
             text-align: center;
             margin: 1% ;
